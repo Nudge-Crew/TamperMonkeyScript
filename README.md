@@ -13,6 +13,7 @@ This script can be imported into tempermonkey using the import file function.
 Tampermonkey should now be functioning on browser at [canvas](https://fhict.test.instructure.com).
 
 In order to make it work properly make sure to do the following steps:
+(These steps are for Firefox, but should be similar to other browsers)
 1. Go to `Inspect Element`
 2. Go to `Storage`
 3. Go to `Local Storage` and click on the canvas url e.g `https://fhict.test.instructure.com`
