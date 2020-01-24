@@ -53,7 +53,7 @@ function main() {
         console.log(assignmentId)
         console.log(submissionId)
 
-        var element = $(this).find('.ic-Action-header')
+        var element = $(this).find('.ic-Action-header').find('.ic-Action-header__Secondary')
         element.append("<button class='Button Button--primary' id='emotion_btn'>Krijg Sentimentele analyse</button>");
 
         element.find("#emotion_btn").click(function(){
